@@ -1,0 +1,17 @@
+{
+  "name": "forest-peer-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PeerJS signaling server for the Forest Online game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "peer": "^1.0.2"
+  }
+}
